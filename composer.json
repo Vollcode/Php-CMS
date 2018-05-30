@@ -1,0 +1,23 @@
+{
+    "name": "xavi/cms",
+    "authors": [
+        {
+            "name": "Xavi",
+            "email": "xavi@geekshubs.com"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "^4.1"
+    },
+    "autoload":{
+      "psr-4":{
+        "Core\\":"Core/",
+        "Helpers\\":"Core/Helpers/",
+        "Controllers\\":"Core/Controllers/",
+        "Models\\":"Core/Models/",
+        "Router\\":"Core/Router/",
+        "Config\\":"Core/Config/",
+        "Store\\":"Core/Store/"
+      }
+    }
+}
